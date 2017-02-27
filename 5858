@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>面向对象插件封装模板</title>
+	</head>
+	<body>
+		<div style="width: 100px; height: 100px;background-color: red;">
+					
+		</div>
+	</body>	
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script src="jQuery插件开发逻辑的模板.js"></script>
+	<script type="text/javascript">
+		$('div').myPlugin('hide');
+	</script>
+</html>
